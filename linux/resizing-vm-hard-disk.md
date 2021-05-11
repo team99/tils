@@ -5,6 +5,7 @@ This should work for VMs from AWS and GCP
 1. Check list of hard disk/volumes attached to the machine. e.g
 
 ```bash
+$ lsblk
 NAME    MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 sda       8:0    0   200G  0 disk 
 ├─sda1    8:1    0 199.9G  0 part /
@@ -21,3 +22,8 @@ Usually, the main hard disk is `sda1` and mounted to `/`.
 5. Run `sudo resize2fs /dev/sdb1` to resize the filesystem.
 6. Run `lsblk` to verfiy the new volume.
 7. This **does not require** to restart the machine.
+
+## References
+
+- [AWS - Extend a Linux file system after resizing a volume](https://docs.amazonaws.cn/en_us/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html)
+- [GCP - Resizing a persistent disk](https://cloud.google.com/compute/docs/disks/working-with-persistent-disks#resize_pd)
