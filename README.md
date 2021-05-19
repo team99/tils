@@ -6,7 +6,7 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 
 ### Linux
 
-- [Resizing VM Hard Disk](linux/resizing-vm-hard-disk.md)
+- [Resizing VM Hard Disk](linux/resizing_vm_hard_disk.md)
 
 ### Elasticsearch
 
@@ -15,6 +15,10 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 ### Kubernetes
 
 - [Resizing Persistent Volumes](kubernetes/resizing_pv.md)
+
+### JQ
+
+- [Getting a field with a special character](jq/getting_a_field_with_a_special_character.md)
 
 ## Contributing
 
