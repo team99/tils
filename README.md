@@ -12,6 +12,10 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 
 - [ES 7.0 Chnaged the Default Number of Primary Shards To 1](elasticsearch/es_7_0_default_number_of_primary_shards.md)
 
+### Kubernetes
+
+- [Resizing Persistent Volumes](kubernetes/resizing_pv.md)
+
 ## Contributing
 
 - Clone the repo
