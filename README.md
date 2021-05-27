@@ -20,6 +20,10 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 
 - [Getting a field with a special character](jq/getting_a_field_with_a_special_character.md)
 
+### Nginx
+
+- [Underscores in Headers](nginx/underscores_in_headers.md)
+
 ## Contributing
 
 - Clone the repo
