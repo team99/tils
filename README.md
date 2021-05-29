@@ -7,6 +7,7 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 ### Linux
 
 - [Resizing VM Hard Disk](linux/resizing_vm_hard_disk.md)
+- [Finding Out the Most Used Commands](linux/finding_out_most_used_commands.md)
 
 ### Elasticsearch
 
