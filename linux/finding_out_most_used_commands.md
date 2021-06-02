@@ -3,7 +3,7 @@
 If we wanna know which commands we run often, we can use the following commands.
 
 ```bash
-history | awk '{print $2}' | sort | uniq -c | sort -rn | head.
+history | awk '{print $2}' | sort | uniq -c | sort -rn | head
 ```
 
 To see which flag of the command did what, check out [explainshell.com](https://explainshell.com/)
