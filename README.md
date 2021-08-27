@@ -16,6 +16,7 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 ### Kubernetes
 
 - [Resizing Persistent Volumes](kubernetes/resizing_pv.md)
+- [Intercepting kubectl requests with mitmproxy](kubernetes/intercepting_kubectl_requests.md)
 
 ### JQ
 
