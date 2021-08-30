@@ -6,17 +6,18 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 
 ### Linux
 
-- [Resizing VM Hard Disk](linux/resizing_vm_hard_disk.md)
-- [Finding Out the Most Used Commands](linux/finding_out_most_used_commands.md)
+- [Resizing VM hard disk](linux/resizing_vm_hard_disk.md)
+- [Finding out the most used commands](linux/finding_out_most_used_commands.md)
 
 ### Elasticsearch
 
-- [ES 7.0 Chnaged the Default Number of Primary Shards To 1](elasticsearch/es_7_0_default_number_of_primary_shards.md)
+- [ES 7.0 changed the default number of primary shards To 1](elasticsearch/es_7_0_default_number_of_primary_shards.md)
 
 ### Kubernetes
 
-- [Resizing Persistent Volumes](kubernetes/resizing_pv.md)
+- [Resizing persistent volumes](kubernetes/resizing_pv.md)
 - [Intercepting kubectl requests with mitmproxy](kubernetes/intercepting_kubectl_requests.md)
+- [Manually triggering a cronjob](kubernetes/triggering_cronjobs_manually.md)
 
 ### JQ
 
@@ -24,7 +25,7 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 
 ### Nginx
 
-- [Underscores in Headers](nginx/underscores_in_headers.md)
+- [Underscores in headers](nginx/underscores_in_headers.md)
 
 ## Contributing
 
