@@ -19,7 +19,7 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 - [Intercepting kubectl requests with mitmproxy](kubernetes/intercepting_kubectl_requests.md)
 - [Manually triggering a cronjob](kubernetes/triggering_cronjobs_manually.md)
 
-### JQ
+### jq
 
 - [Getting a field with a special character](jq/getting_a_field_with_a_special_character.md)
 
@@ -27,8 +27,13 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 
 - [Underscores in headers](nginx/underscores_in_headers.md)
 
+### Mongodb
+
+- [Checking current number of connections](mongodb/listing_currnt_connections.md)
+
 ## Contributing
 
 - Clone the repo
 - Add a folder for a category if it doesn't exit yet. Add a file. Update the README.md to add the link.
 - Commit it and push to the repo.
+- Profit 🥳
