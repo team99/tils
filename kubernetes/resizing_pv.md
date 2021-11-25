@@ -34,7 +34,7 @@
     ```
 
 3. Change the StorgeClass `AllowVolumeExpansion` to `true` if it is not.
-4. Edit the PVC `kubectl edit pvc pvc-name-here`. Change `spec.resources.requests.stoarge` to the amount we want
+4. Edit the PVC `kubectl edit pvc pvc-name-here`. Change `spec.resources.requests.storage` to the amount we want
 5. Now, we have to restart the Deployments that the volume is attached to. Do `kubectl rollout restart deployment <deployment name>`.
 6. If we don't know which Deployment is using the volumes, we can use the follow command to find the Pods and the attached volumes.
 

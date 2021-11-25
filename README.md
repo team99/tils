@@ -31,6 +31,10 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 
 - [Checking current number of connections](mongodb/current_active_connections.md)
 
+### Python
+
+- [Slots](python/slots.md)
+
 ## Contributing
 
 - Clone the repo
