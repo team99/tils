@@ -17,10 +17,11 @@ This should work for VMs from AWS and GCP
 
 2. Resize the machine hard disk from AWS or GCP console. This won't automatically change the hard disk size in the machine _yet_. We have to extend the filesystem.
 3. SSH into the machine.
-4. Run `sudo growpart /dev/sdb 1` to extend the partition.
-5. Run `sudo resize2fs /dev/sdb1` to resize the filesystem.
-6. Run `lsblk` to verfiy the new volume.
-7. This **does not require** to restart the machine.
+4. Run `sudo growpart /dev/sda 1` to extend the partition.
+5. Run `sudo resize2fs /dev/sda1` to resize the filesystem.
+6. Run `lsblk` to verfiy the new volume. 
+7. Run `df -h` to see the disk space usage.
+8. This **does not require** to restart the machine.
 
 ## References
 
