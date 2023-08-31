@@ -4,6 +4,10 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 
 ## Categories
 
+### Bash
+
+- [Running multiple workers in bash and tmux](bash/multirunner.sh)
+
 ### Linux
 
 - [Resizing VM hard disk](linux/resizing_vm_hard_disk.md)
