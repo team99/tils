@@ -30,6 +30,7 @@ A bunch of tips/tricks we have learned day to day across multiple repos/language
 ### Mongodb
 
 - [Checking current number of connections](mongodb/current_active_connections.md)
+- [Checking the colleciton size](mongodb/print_collection_size.md)
 
 ### Python
 
